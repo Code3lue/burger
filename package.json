@@ -4,7 +4,8 @@
   "description": "Week of 14 Homework Node Express Handlebars\r Overview",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.8",
     "mysql": "^2.13.0"
+  },
+  "engines": {
+    "node": "6.9.4"
   }
 }
